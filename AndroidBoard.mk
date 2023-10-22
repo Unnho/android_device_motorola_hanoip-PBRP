@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-# copy kernel headers to the build tree
+# Basically Nothing, just something usefull for the builder
 $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr: $(wildcard $(PRODUCT_VENDOR_KERNEL_HEADERS)/*)
 	rm -rf $@
 	mkdir -p $@/include
