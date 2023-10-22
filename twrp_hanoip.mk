@@ -23,7 +23,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := motorola g60/g40
 PRODUCT_MODEL := hanoip
 PRODUCT_MANUFACTURER := motorola
 
